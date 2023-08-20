@@ -1,10 +1,10 @@
 import groovy.util.*
 
 pipeline {
-    agent { any }
+    agent any
 
     options {
-        timestamp()
+        timestamps()
     }
 
     stages {
