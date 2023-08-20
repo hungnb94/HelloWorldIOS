@@ -6,11 +6,11 @@ pipeline {
     }
 
     stages {
-        stage('Dependencies') {
-            steps {
-                sh '/usr/local/bin/pod install'
-            }
-        }
+//         stage('Dependencies') {
+//             steps {
+//                 sh '/usr/local/bin/pod install'
+//             }
+//         }
 
         stage('Test') {
             steps {
