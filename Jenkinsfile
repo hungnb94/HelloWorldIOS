@@ -1,5 +1,3 @@
-import groovy.util.*
-
 pipeline {
     agent any
 

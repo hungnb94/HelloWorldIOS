@@ -1,4 +1,4 @@
-FROM Xcode:14.3
+FROM sickcodes/docker-osx:ventura
 WORKDIR /
 COPY . /
 RUN xcodebuild
